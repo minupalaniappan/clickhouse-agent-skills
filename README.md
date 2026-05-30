@@ -134,6 +134,7 @@ Skills are **agent-agnostic**—the same skill works across all supported AI cod
 | Agent | Config Directory |
 |-------|------------------|
 | [Claude Code](https://claude.ai/code) | `.claude/skills/` |
+| [Grok](https://grok.com) | `.grok/skills/` |
 | [Cursor](https://cursor.sh) | `.cursor/skills/` |
 | [Windsurf](https://codeium.com/windsurf) | `.windsurf/skills/` |
 | [GitHub Copilot](https://github.com/features/copilot) | `.github/skills/` |
@@ -147,6 +148,8 @@ Skills are **agent-agnostic**—the same skill works across all supported AI cod
 And 13 more including Amp, Kiro CLI, Trae, Zencoder, and others.
 
 The installer detects which agents you have by checking for their configuration directories. If an agent isn't listed, either install it first or create its config directory manually (e.g., `mkdir -p ~/.cursor`).
+
+For Grok-specific repository guidance, see [GROK.md](./GROK.md).
 
 ## License
 
